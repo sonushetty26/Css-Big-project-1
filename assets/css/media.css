@@ -1,0 +1,37 @@
+@media(max-width:992px){
+    .banner{
+        background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/image2.jpg) no-repeat center;
+}
+.company, .card,.getinTouch,footer{
+    flex-flow: column;
+    text-align: center;
+}
+.getinTouch>div{
+    margin:0px;
+}
+.getinTouch>div>form{
+    padding:10px;
+}
+/*index2.html*/
+.image{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(../images/avatar/portrait-young-redhead-bearded-male.jpg);
+  
+  }
+  .menu,.h-txt,.featured-section,.book-section{
+    flex-flow: column;
+    text-align: center;
+  }
+
+
+}
+/*Tab*/
+@media(min-width:993px) and (max-width:1200px){
+    .banner{
+        background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/image3.jpg) no-repeat center;
+        background-size: 150%;
+}
+.image{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/image3.jpg) no-repeat center;
+    background-size: 50%;
+}
+}
